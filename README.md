@@ -20,7 +20,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Screenshot
 
-<img src="/desktop.jpg" width="660"> <img src="/mobile.jpg" height="450"> 
+<img src="/desktop.jpg" width="500"> <img src="/mobile.jpg" height="350"> 
 
 ### Links
 
