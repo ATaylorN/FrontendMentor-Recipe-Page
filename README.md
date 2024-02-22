@@ -13,17 +13,14 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 Your challenge is to build out this recipe page and get it looking as close to the design as possible.
-
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
 ### Screenshot
 
-![](./screenshot.jpg)
+<img src="/desktop.jpg" width="500"> <img src="/mobile.jpg" height="350"> 
 
 ### Links
 
@@ -39,23 +36,38 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+After reviewing the challenge, my thought was that it would be best to try to do the mobile version of this project first and then move to the desktop version. It also seemed like it would be best to focus on the HTML part first, focusing 	primarily on semantic HTML elements. For this project, I didn't feel like I necessarily NEEDED Vue or React. I do want to use React at some point to practice, but for now, I'm focusing purely on HTML and CSS.
 
-To see how you can add code snippets, see below:
+Figuring out how to create spacing between bullet points and the list item and how to change just the color of the bullet points without changing the color of the list item, took me a moment to figure out, a lot of trial and error. 
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+This allowed me to change the bullet points' color:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+li::marker {
+  color: hsl(332,51%,32%);
 }
-``
+```
+
+I ran into a similar issue when it came to getting a solid bottom border for each row of the table, the border-collapse property helped with this:
+```css
+table {
+  border-collapse: collapse; width: 100%; 
+}
+table,td{
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+```
+
+This project was also good practice for nth child and marker selectors which I used to change the color of only the second column: 
+```css
+td:nth-child(2){
+    color: hsl(14,45%,36%);
+    font-weight: 700;
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+This was great practice on using semantic HTML and CSS. I've completed a couple of projects using Vue.js and would like to do similar projects in React in the future.
 
 ## Author
 
