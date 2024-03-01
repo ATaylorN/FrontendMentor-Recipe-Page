@@ -2,6 +2,10 @@
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+[![My Skills](https://skillicons.dev/icons?i=html,css,vscode,github)](https://skillicons.dev)
+
+[![Generic badge](https://img.shields.io/badge/STATUS-COMPLETE-GREEN.svg)](https://shields.io/)
+
 ## Table of contents
 
 - [Overview](#overview)
